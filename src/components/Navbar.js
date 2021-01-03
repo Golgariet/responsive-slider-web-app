@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { menuData } from "../data/MenuData";
 import Button from "./Button";
 import Bars from "../images/bars.svg";
-// import { FaBars } from 'react-icons/fa';
+//import { FaBars } from "react-icons/fa";
 
 const Nav = styled.nav`
   height: 60px;
@@ -34,13 +34,33 @@ const Logo = styled(Link)`
 
 const MenuBars = styled.i`
   display: none;
+  @media screen and (max-width: 768px) {
+    background-image: url(${Bars});
+    display: block;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 25%);
+  }
 `;
 
 // const MenuBars = styled(FaBars)`
 //   display: none;
 
 //   @media screen and (max-width: 768px) {
-//       display: block;
+//     display: block;
+//     background-size: contain;
+//     height: 40px;
+//     width: 40px;
+//     cursor: pointer;
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     transform: translate(-50%, 25%);
 //   }
 // `;
 
@@ -49,7 +69,7 @@ const NavMenu = styled.div`
   align-items: center;
   margin-right: -48px;
 
-  @media screeen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -63,7 +83,7 @@ const NavBtn = styled.div`
   align-items: center;
   margin-right: 24px;
 
-  @media screeen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
