@@ -14,7 +14,6 @@ const Nav = styled.nav`
   position: fixed;
   width: 100%;
   display: flex;
-  background: orangered;
 `;
 
 const NavLink = css`
