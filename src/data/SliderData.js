@@ -13,19 +13,11 @@ export const SliderData = [
     alt: "House",
   },
   {
-    title: "Luxury Villa in Bali, Indonesia",
-    price: "$4,980,000",
-    path: "/homes",
-    label: "View Home",
-    image: ImageOne,
-    alt: "House",
-  },
-  {
     title: "House in San Jose, Costa Rica",
     price: "$2,110,000",
     path: "/homes",
     label: "View Home",
-    image: ImageOne,
+    image: ImageTwo,
     alt: "House",
   },
   {
@@ -33,7 +25,7 @@ export const SliderData = [
     price: "$6,780,800",
     path: "/homes",
     label: "View Home",
-    image: ImageOne,
+    image: ImageThree,
     alt: "House",
   },
   {
@@ -41,7 +33,7 @@ export const SliderData = [
     price: "$7,576,000",
     path: "/homes",
     label: "View Home",
-    image: ImageOne,
+    image: ImageFour,
     alt: "House",
   },
 ];
