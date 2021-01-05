@@ -29,6 +29,7 @@ const NavLink = css`
 const Logo = styled(Link)`
   ${NavLink}
   font-style: italic;
+  font-size: 30px;
 `;
 
 const MenuBars = styled.i`
@@ -74,7 +75,7 @@ const NavBtn = styled.div`
 const Navbar = () => {
   return (
     <Nav>
-      <Logo to="/">AVITO</Logo>
+      <Logo to="/">東京</Logo>
       <MenuBars />
       <NavMenu>
         {menuData.map((item, index) => (
