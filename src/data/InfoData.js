@@ -1,3 +1,6 @@
+import ImageOne from "../images/apart-1.jpg";
+import ImageTwo from "../images/apart-2.jpg";
+
 export const InfoData = {
   heading: "Explore our beautiful homes",
   paragraphOne:
@@ -13,11 +16,11 @@ export const InfoData = {
 export const InfoDataTwo = {
   heading: "Modern Designs",
   paragraphOne:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur nostrum inventore officia non maxime sequi",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur nostrum ",
   paragraph:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, repellat.or sit amet consectetur adipisicing elit. Iusto, repellat.",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, repellat.or sit ",
   buttonLabel: "View Homes",
-  image: ImageOne,
+  image: ImageTwo,
   reverse: true,
   delay: 300,
 };
