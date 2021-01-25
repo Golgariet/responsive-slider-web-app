@@ -6,6 +6,7 @@ const Section = styled.section`
   width: 100%;
   height: 100%;
   padding: 4rem 0 rem;
+  background-color: #f8f1f1;
 `;
 
 const Container = styled.div`
@@ -18,7 +19,7 @@ const Container = styled.div`
     grid-template-columns: 1fr;
   }
 `;
-const ColumnLeft = styled.div`
+const Left = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +37,7 @@ const ColumnLeft = styled.div`
   }
 `;
 
-const ColumnRight = styled.div`
+const Right = styled.div`
   padding: 1rem 2rem;
   order: ${({ reverse }) => (reverse ? "1" : "2")};
   display: flex;
@@ -73,17 +74,17 @@ const InfoSection = ({
   return (
     <Section>
       <Container>
-        <ColumnLeft>
+        <Left>
           <h1>{heading}</h1>
           <p>{paragraphOne}</p>
           <p>{paragraphTwo}</p>
           <Button to="/homes" primary="true">
             {buttonLabel}
           </Button>
-        </ColumnLeft>
-        <ColumnRight reverse={reverse}>
+        </Left>
+        <Right reverse={reverse}>
           <img src={image} alt="home" />
-        </ColumnRight>
+        </Right>
       </Container>
     </Section>
   );
