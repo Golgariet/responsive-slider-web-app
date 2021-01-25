@@ -6,7 +6,7 @@ const Section = styled.section`
   width: 100%;
   height: 100%;
   padding: 4rem 0 rem;
-  background-color: #f8f1f1;
+  background-color: #fcf8e8;
 `;
 
 const Container = styled.div`
