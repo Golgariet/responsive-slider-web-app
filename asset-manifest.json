@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/responsive-slider-web-app/static/js/main.ee8bf7c3.chunk.js",
+    "main.js.map": "/responsive-slider-web-app/static/js/main.ee8bf7c3.chunk.js.map",
+    "runtime-main.js": "/responsive-slider-web-app/static/js/runtime-main.070d32aa.js",
+    "runtime-main.js.map": "/responsive-slider-web-app/static/js/runtime-main.070d32aa.js.map",
+    "static/js/2.7511b9b6.chunk.js": "/responsive-slider-web-app/static/js/2.7511b9b6.chunk.js",
+    "static/js/2.7511b9b6.chunk.js.map": "/responsive-slider-web-app/static/js/2.7511b9b6.chunk.js.map",
+    "index.html": "/responsive-slider-web-app/index.html",
+    "static/js/2.7511b9b6.chunk.js.LICENSE.txt": "/responsive-slider-web-app/static/js/2.7511b9b6.chunk.js.LICENSE.txt",
+    "static/media/apart-1.d6d14aca.jpg": "/responsive-slider-web-app/static/media/apart-1.d6d14aca.jpg",
+    "static/media/apart-2.d905806d.jpg": "/responsive-slider-web-app/static/media/apart-2.d905806d.jpg",
+    "static/media/bars.148288f0.svg": "/responsive-slider-web-app/static/media/bars.148288f0.svg",
+    "static/media/house-1.834c1e87.jpg": "/responsive-slider-web-app/static/media/house-1.834c1e87.jpg",
+    "static/media/house-2.d2e515db.jpg": "/responsive-slider-web-app/static/media/house-2.d2e515db.jpg",
+    "static/media/house-3.b9a564d3.jpg": "/responsive-slider-web-app/static/media/house-3.b9a564d3.jpg",
+    "static/media/house-4.96bc92b0.jpg": "/responsive-slider-web-app/static/media/house-4.96bc92b0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.070d32aa.js",
+    "static/js/2.7511b9b6.chunk.js",
+    "static/js/main.ee8bf7c3.chunk.js"
+  ]
+}
