@@ -1,6 +1,6 @@
 # React SlideShow SPA
 
-Slidshow SPA - UI component made in React with HTML content around it specifically designed as a basic Estate seller for single page application (SPA).
+Slideshow SPA - UI component made in React with HTML content around it specifically designed as a basic Estate seller for single page application (SPA).
 
 Link: [https://golgariet.github.io/responsive-slider-web-app/](https://golgariet.github.io/responsive-slider-web-app/)
 
